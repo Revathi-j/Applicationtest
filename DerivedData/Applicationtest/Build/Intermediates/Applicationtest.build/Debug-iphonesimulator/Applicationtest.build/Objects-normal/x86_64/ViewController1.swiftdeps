@@ -7,23 +7,23 @@ provides-member:
 - ["C15Applicationtest15ViewController1", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "UICollectionViewDelegate"
-- "UICollectionViewDataSource"
-- "AnyObject"
+- "UIStoryboardSegue"
 - "UIViewController"
-- "UICollectionViewCell"
-- "UICollectionView"
-- !private "UIImage"
-- "ViewController1"
 - !private "=="
+- !private "ViewController2"
 - !private "CollectionViewCell"
+- "UICollectionViewDataSource"
 - "NSIndexPath"
+- "AnyObject"
+- !private "print"
+- "Int"
+- "ViewController1"
+- !private "UIImage"
 - !private "performSegueWithIdentifier"
 - "NSArray"
-- !private "ViewController2"
-- "Int"
-- !private "print"
-- "UIStoryboardSegue"
+- "UICollectionViewCell"
+- "UICollectionView"
+- "UICollectionViewDelegate"
 depends-member:
 - !private ["C15Applicationtest18CollectionViewCell", "img"]
 - ["C15Applicationtest15ViewController1", "AnyObject"]

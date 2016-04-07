@@ -1,0 +1,10 @@
+version: "Apple Swift version 2.0 (swiftlang-700.0.59 clang-700.0.72)"
+options: "7cf56baae4f403637bacc24fbdfacc0d"
+build_time: [513328619, 986134000]
+inputs: 
+	"/Users/blt0009-/Desktop/Collections/Applicationtest/ViewController.swift": [511970872, 0]
+	"/Users/blt0009-/Desktop/Collections/Applicationtest/AppDelegate.swift": [511942187, 0]
+	"/Users/blt0009-/Desktop/Collections/Applicationtest/ViewController1.swift": [512118875, 0]
+	"/Users/blt0009-/Desktop/Collections/Applicationtest/CollectionViewCell.swift": [511967360, 0]
+	"/Users/blt0009-/Desktop/Collections/Applicationtest/TableViewCell.swift": [511943809, 0]
+	"/Users/blt0009-/Desktop/Collections/Applicationtest/ViewController2.swift": [512114699, 0]

@@ -31,11 +31,7 @@ class ApplicationtestUITests: XCTestCase {
     func testExample() {
         
         
-        let app = XCUIApplication()
-       let table =  app.buttons["Say Hello"]
-       table.tap()
-          XCTAssertEqual(table.value as! String, "1")
-        app.alerts["Alert"].collectionViews.buttons["OK"].tap()
+       
       
         
           // Use recording to get started writing UI tests.
@@ -45,34 +41,12 @@ class ApplicationtestUITests: XCTestCase {
     
     func testShowElements() {
         
-        let app = XCUIApplication()
-        app.buttons["Show Elements"].tap()
         
-        let appleStaticText = app.tables.staticTexts["Apple"]
-        appleStaticText.swipeDown()
-        app.otherElements.containingType(.NavigationBar, identifier:"Applicationtest.View").childrenMatchingType(.Other).element.childrenMatchingType(.Other).element.childrenMatchingType(.Other).element.childrenMatchingType(.Table).element.swipeUp()
-        appleStaticText.swipeDown()
- 
-        }
+    }
     
     func testShowImage(){
         
         
-        let app = XCUIApplication()
-        app.buttons["Show image"].tap()
         
-        let collectionViewsQuery = app.collectionViews
-        collectionViewsQuery.images["Food5.jpeg"].swipeUp()
-        collectionViewsQuery.images["Food6.jpeg"].tap()
-        
-        let backButton = app.navigationBars["Applicationtest.View"].childrenMatchingType(.Button).matchingIdentifier("Back").elementBoundByIndex(0)
-        backButton.tap()
-        collectionViewsQuery.images["Food12.jpeg"].tap()
-        backButton.tap()
-        app.otherElements.containingType(.NavigationBar, identifier:"Applicationtest.View").childrenMatchingType(.Other).element.childrenMatchingType(.Other).element.childrenMatchingType(.Other).element.childrenMatchingType(.CollectionView).element.swipeDown()
-        collectionViewsQuery.images["Food1.jpeg"].tap()
-        backButton.tap()
-        XCTAssert(app.images["Food5.jpeg"].exists)
-        XCTAssert(app.images["Food6.jpeg"].exists)
-          }
+    }
 }

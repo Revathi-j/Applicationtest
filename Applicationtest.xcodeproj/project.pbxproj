@@ -489,6 +489,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_OPTIMIZATION_PROFILE_FILE = "/Users/blt0009-/Desktop/Collections/Applicationtest.xcodeproj";
 				INFOPLIST_FILE = ApplicationtestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bliss.ApplicationtestTests;
@@ -501,6 +502,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_OPTIMIZATION_PROFILE_FILE = "/Users/blt0009-/Desktop/Collections/Applicationtest.xcodeproj";
 				INFOPLIST_FILE = ApplicationtestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bliss.ApplicationtestTests;
