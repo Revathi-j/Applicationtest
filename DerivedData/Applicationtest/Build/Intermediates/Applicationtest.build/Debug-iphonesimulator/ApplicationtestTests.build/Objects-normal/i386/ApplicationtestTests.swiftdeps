@@ -6,8 +6,8 @@ provides-nominal:
 provides-member:
 - ["C20ApplicationtestTests20ApplicationtestTests", ""]
 provides-dynamic-lookup:
-- "tearDown"
 - "testPerformanceExample"
+- "tearDown"
 - "setUp"
 - "testExample"
 depends-top-level:

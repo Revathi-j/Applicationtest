@@ -6,17 +6,17 @@ provides-nominal:
 provides-member:
 - ["C15Applicationtest15ViewController2", ""]
 provides-dynamic-lookup:
-- "array"
-- "didReceiveMemoryWarning"
 - "viewDidLoad"
 - "image2"
+- "didReceiveMemoryWarning"
+- "array"
 depends-top-level:
+- "ViewController2"
+- "UIImageView"
+- !private "UIImage"
 - !private "String"
 - "NSString"
-- "UIImageView"
 - "UIViewController"
-- !private "UIImage"
-- "ViewController2"
 depends-member:
 - ["PSs9AnyObject", "NSString"]
 - !private ["PSs9AnyObject", "UIImage"]

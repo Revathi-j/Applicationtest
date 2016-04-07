@@ -1,5 +1,5 @@
 version: "Apple Swift version 2.0 (swiftlang-700.0.59 clang-700.0.72)"
 options: "e6f73695e245dca511b30fc5a4956374"
-build_time: [513338855, 697997000]
+build_time: [513341965, 271272000]
 inputs: 
 	"/Users/blt0009-/Desktop/Collections/ApplicationtestTests/ApplicationtestTests.swift": [512123171, 0]
