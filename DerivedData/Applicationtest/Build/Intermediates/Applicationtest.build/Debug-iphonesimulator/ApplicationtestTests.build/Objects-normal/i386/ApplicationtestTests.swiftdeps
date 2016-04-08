@@ -7,12 +7,12 @@ provides-member:
 - ["C20ApplicationtestTests20ApplicationtestTests", ""]
 provides-dynamic-lookup:
 - "testPerformanceExample"
-- "tearDown"
 - "setUp"
 - "testExample"
+- "tearDown"
 depends-top-level:
-- "XCTestCase"
 - "ApplicationtestTests"
+- "XCTestCase"
 - !private "ViewController"
 depends-member:
 - !private ["PSs9AnyObject", "ViewController"]
