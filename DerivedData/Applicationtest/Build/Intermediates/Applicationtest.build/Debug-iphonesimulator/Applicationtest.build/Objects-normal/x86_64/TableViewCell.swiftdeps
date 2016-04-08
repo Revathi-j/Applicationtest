@@ -1,0 +1,29 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TableViewCell"
+provides-nominal:
+- "C15Applicationtest13TableViewCell"
+provides-member:
+- ["C15Applicationtest13TableViewCell", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "UILabel"
+- "UITableViewCell"
+- "TableViewCell"
+- "Bool"
+depends-member:
+- ["C15Applicationtest13TableViewCell", "Bool"]
+- ["C15Applicationtest13TableViewCell", "UILabel"]
+- ["C15Applicationtest13TableViewCell", "awakeFromNib"]
+- ["C15Applicationtest13TableViewCell", "deinit"]
+- ["C15Applicationtest13TableViewCell", "init"]
+depends-nominal:
+- "C15Applicationtest13TableViewCell"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+interface-hash: "175eef563ce2c02cf30b5504072b71eb"

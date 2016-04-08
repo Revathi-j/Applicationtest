@@ -1,0 +1,57 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController1"
+provides-nominal:
+- "C15Applicationtest15ViewController1"
+provides-member:
+- ["C15Applicationtest15ViewController1", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "UICollectionView"
+- "NSIndexPath"
+- !private "=="
+- !private "UIImage"
+- "UICollectionViewDelegate"
+- !private "CollectionViewCell"
+- !private "print"
+- "AnyObject"
+- !private "performSegueWithIdentifier"
+- "UIViewController"
+- "UICollectionViewCell"
+- "UIStoryboardSegue"
+- "UICollectionViewDataSource"
+- "Int"
+- "ViewController1"
+- !private "ViewController2"
+- "NSArray"
+depends-member:
+- !private ["C15Applicationtest18CollectionViewCell", "img"]
+- ["C15Applicationtest15ViewController1", "AnyObject"]
+- !private ["C15Applicationtest15ViewController1", "Collection"]
+- !private ["C15Applicationtest15ViewController1", "CollectionViewCell"]
+- ["C15Applicationtest15ViewController1", "Int"]
+- ["C15Applicationtest15ViewController1", "NSArray"]
+- ["C15Applicationtest15ViewController1", "NSIndexPath"]
+- ["C15Applicationtest15ViewController1", "UICollectionView"]
+- ["C15Applicationtest15ViewController1", "UICollectionViewCell"]
+- !private ["C15Applicationtest15ViewController1", "UIImage"]
+- ["C15Applicationtest15ViewController1", "UIStoryboardSegue"]
+- !private ["C15Applicationtest15ViewController1", "ViewController2"]
+- ["C15Applicationtest15ViewController1", "deinit"]
+- !private ["C15Applicationtest15ViewController1", "images"]
+- ["C15Applicationtest15ViewController1", "init"]
+- !private ["C15Applicationtest15ViewController1", "performSegueWithIdentifier"]
+- !private ["C15Applicationtest15ViewController1", "print"]
+- !private ["C15Applicationtest15ViewController1", "selectedindex"]
+- ["C15Applicationtest15ViewController1", "viewDidLoad"]
+depends-nominal:
+- !private "C15Applicationtest18CollectionViewCell"
+- "C15Applicationtest15ViewController1"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+interface-hash: "8792183597e19144f168d5f01db43aed"
