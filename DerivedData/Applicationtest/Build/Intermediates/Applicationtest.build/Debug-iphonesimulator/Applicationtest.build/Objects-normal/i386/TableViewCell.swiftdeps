@@ -6,13 +6,13 @@ provides-nominal:
 provides-member:
 - ["C15Applicationtest13TableViewCell", ""]
 provides-dynamic-lookup:
-- "setSelected"
 - "lb1"
+- "setSelected"
 - "awakeFromNib"
 depends-top-level:
-- "Bool"
-- "UILabel"
 - "UITableViewCell"
+- "UILabel"
+- "Bool"
 - "TableViewCell"
 depends-member:
 - ["PSs9AnyObject", "awakeFromNib"]

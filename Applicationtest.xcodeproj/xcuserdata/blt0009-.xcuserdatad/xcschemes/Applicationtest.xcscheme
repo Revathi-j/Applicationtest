@@ -8,10 +8,10 @@
       <BuildActionEntries>
          <BuildActionEntry
             buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CB86F8F81CA1192B0054B127"
@@ -66,16 +66,6 @@
                ReferencedContainer = "container:Applicationtest.xcodeproj">
             </BuildableReference>
          </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CB86F9171CA1192C0054B127"
-               BuildableName = "ApplicationtestUITests.xctest"
-               BlueprintName = "ApplicationtestUITests"
-               ReferencedContainer = "container:Applicationtest.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
@@ -99,16 +89,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CB86F8F81CA1192B0054B127"
-            BuildableName = "Applicationtest.app"
-            BlueprintName = "Applicationtest"
+            BlueprintIdentifier = "CB86F90C1CA1192C0054B127"
+            BuildableName = "ApplicationtestTests.xctest"
+            BlueprintName = "ApplicationtestTests"
             ReferencedContainer = "container:Applicationtest.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -118,16 +107,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CB86F8F81CA1192B0054B127"
-            BuildableName = "Applicationtest.app"
-            BlueprintName = "Applicationtest"
-            ReferencedContainer = "container:Applicationtest.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

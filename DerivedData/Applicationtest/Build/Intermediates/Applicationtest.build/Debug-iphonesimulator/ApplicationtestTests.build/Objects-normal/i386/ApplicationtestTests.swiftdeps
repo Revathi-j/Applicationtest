@@ -6,16 +6,14 @@ provides-nominal:
 provides-member:
 - ["C20ApplicationtestTests20ApplicationtestTests", ""]
 provides-dynamic-lookup:
-- "testPerformanceExample"
-- "setUp"
 - "testExample"
+- "setUp"
+- "testPerformanceExample"
 - "tearDown"
 depends-top-level:
 - "ApplicationtestTests"
 - "XCTestCase"
-- !private "ViewController"
 depends-member:
-- !private ["PSs9AnyObject", "ViewController"]
 - ["PSs9AnyObject", "init"]
 - !private ["PSs9AnyObject", "measureBlock"]
 - ["PSs9AnyObject", "setUp"]
@@ -23,7 +21,6 @@ depends-member:
 - ["PSs9AnyObject", "testExample"]
 - ["PSs9AnyObject", "testPerformanceExample"]
 - ["PSs9AnyObject", ""]
-- !private ["C20ApplicationtestTests20ApplicationtestTests", "ViewController"]
 - ["C20ApplicationtestTests20ApplicationtestTests", "deinit"]
 - ["C20ApplicationtestTests20ApplicationtestTests", "init"]
 - !private ["C20ApplicationtestTests20ApplicationtestTests", "measureBlock"]
@@ -31,7 +28,6 @@ depends-member:
 - ["C20ApplicationtestTests20ApplicationtestTests", "tearDown"]
 - ["C20ApplicationtestTests20ApplicationtestTests", "testExample"]
 - ["C20ApplicationtestTests20ApplicationtestTests", "testPerformanceExample"]
-- !private ["PSs11CVarArgType", "ViewController"]
 - ["PSs11CVarArgType", "init"]
 - !private ["PSs11CVarArgType", "measureBlock"]
 - ["PSs11CVarArgType", "setUp"]
@@ -39,7 +35,6 @@ depends-member:
 - ["PSs11CVarArgType", "testExample"]
 - ["PSs11CVarArgType", "testPerformanceExample"]
 - ["PSs11CVarArgType", ""]
-- !private ["PSs23CustomStringConvertible", "ViewController"]
 - ["PSs23CustomStringConvertible", "init"]
 - !private ["PSs23CustomStringConvertible", "measureBlock"]
 - ["PSs23CustomStringConvertible", "setUp"]
@@ -47,7 +42,6 @@ depends-member:
 - ["PSs23CustomStringConvertible", "testExample"]
 - ["PSs23CustomStringConvertible", "testPerformanceExample"]
 - ["PSs23CustomStringConvertible", ""]
-- !private ["PSs9Equatable", "ViewController"]
 - ["PSs9Equatable", "init"]
 - !private ["PSs9Equatable", "measureBlock"]
 - ["PSs9Equatable", "setUp"]
@@ -55,7 +49,6 @@ depends-member:
 - ["PSs9Equatable", "testExample"]
 - ["PSs9Equatable", "testPerformanceExample"]
 - ["PSs9Equatable", ""]
-- !private ["PSs8Hashable", "ViewController"]
 - ["PSs8Hashable", "init"]
 - !private ["PSs8Hashable", "measureBlock"]
 - ["PSs8Hashable", "setUp"]
@@ -63,16 +56,12 @@ depends-member:
 - ["PSs8Hashable", "testExample"]
 - ["PSs8Hashable", "testPerformanceExample"]
 - ["PSs8Hashable", ""]
-- !private ["PSo8NSCoding", "init"]
-- !private ["PSo26NSExtensionRequestHandling", "init"]
-- !private ["CSo8NSObject", "ViewController"]
 - ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "measureBlock"]
 - ["CSo8NSObject", "setUp"]
 - ["CSo8NSObject", "tearDown"]
 - ["CSo8NSObject", "testExample"]
 - ["CSo8NSObject", "testPerformanceExample"]
-- !private ["PSo16NSObjectProtocol", "ViewController"]
 - ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "measureBlock"]
 - ["PSo16NSObjectProtocol", "setUp"]
@@ -80,22 +69,12 @@ depends-member:
 - ["PSo16NSObjectProtocol", "testExample"]
 - ["PSo16NSObjectProtocol", "testPerformanceExample"]
 - ["PSo16NSObjectProtocol", ""]
-- !private ["PSo19UIAlertViewDelegate", "init"]
-- !private ["PSo21UIAppearanceContainer", "init"]
-- !private ["PSo18UIContentContainer", "init"]
-- !private ["CSo11UIResponder", "init"]
-- !private ["PSo16UIStateRestoring", "init"]
-- !private ["PSo18UITraitEnvironment", "init"]
-- !private ["CSo16UIViewController", "init"]
-- !private ["C15Applicationtest14ViewController", "init"]
-- !private ["CSo6XCTest", "ViewController"]
 - ["CSo6XCTest", "init"]
 - !private ["CSo6XCTest", "measureBlock"]
 - ["CSo6XCTest", "setUp"]
 - ["CSo6XCTest", "tearDown"]
 - ["CSo6XCTest", "testExample"]
 - ["CSo6XCTest", "testPerformanceExample"]
-- !private ["CSo10XCTestCase", "ViewController"]
 - ["CSo10XCTestCase", "init"]
 - !private ["CSo10XCTestCase", "measureBlock"]
 - ["CSo10XCTestCase", "setUp"]
@@ -110,18 +89,8 @@ depends-nominal:
 - "PSs23CustomStringConvertible"
 - "PSs9Equatable"
 - "PSs8Hashable"
-- !private "PSo8NSCoding"
-- !private "PSo26NSExtensionRequestHandling"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
-- !private "PSo19UIAlertViewDelegate"
-- !private "PSo21UIAppearanceContainer"
-- !private "PSo18UIContentContainer"
-- !private "CSo11UIResponder"
-- !private "PSo16UIStateRestoring"
-- !private "PSo18UITraitEnvironment"
-- !private "CSo16UIViewController"
-- !private "C15Applicationtest14ViewController"
 - "CSo6XCTest"
 - "CSo10XCTestCase"
 depends-dynamic-lookup:

@@ -7,16 +7,16 @@ provides-member:
 - ["C15Applicationtest14ViewController", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "UITableViewCell"
-- "ViewController"
-- !private "UIAlertView"
-- "NSArray"
-- "Int"
-- "AnyObject"
-- "UITableView"
-- "UIViewController"
-- !private "TableViewCell"
 - "UIAlertViewDelegate"
+- "UIViewController"
+- "UITableView"
+- "UITableViewCell"
+- "Int"
+- "ViewController"
+- "NSArray"
+- !private "UIAlertView"
+- !private "TableViewCell"
+- "AnyObject"
 depends-member:
 - !private ["C15Applicationtest13TableViewCell", "lb1"]
 - ["C15Applicationtest14ViewController", "AnyObject"]

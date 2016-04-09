@@ -7,10 +7,10 @@ provides-member:
 - ["C15Applicationtest13TableViewCell", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "UILabel"
-- "UITableViewCell"
 - "TableViewCell"
 - "Bool"
+- "UILabel"
+- "UITableViewCell"
 depends-member:
 - ["C15Applicationtest13TableViewCell", "Bool"]
 - ["C15Applicationtest13TableViewCell", "UILabel"]
